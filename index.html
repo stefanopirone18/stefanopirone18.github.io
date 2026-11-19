@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stefano Pirone</title>
+  <meta name="description" content="Stefano Pirone. Studio, attivo e racconto la società attraverso il diritto, il digitale e i territori. Giurisprudenza, informatica giuridica, attivazione civica e scrittura." />
+  <meta name="theme-color" content="#FFFFFF" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:title" content="Stefano Pirone" />
+  <meta property="og:description" content="Studio, attivo e racconto la società attraverso il diritto, il digitale e i territori." />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=DM+Sans:opsz,wght@9..40,400..600&display=swap" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script>document.documentElement.className += " js";</script>
+  <script src="/data/content.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav">
+    <div class="nav__inner wrap">
+      <a class="nav__brand" href="/">Stefano Pirone</a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-label">Menu</span>
+        <span class="nav__toggle-icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="nav__menu" id="nav-menu" aria-label="Navigazione principale">
+        <ul class="nav__links">
+          <li><a href="/progetti" data-section="progetti">Progetti</a></li>
+          <li><a href="/scrittura" data-section="scrittura">Scrittura</a></li>
+          <li><a href="/chi-sono" data-section="chi-sono">Chi sono</a></li>
+          <li><a href="/contatti" data-section="contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto" tabindex="-1">
+
+    <!-- ===================================================== HOME -->
+    <section class="view" data-view="home" aria-labelledby="home-title">
+      <div class="hero wrap">
+        <h1 class="hero__title" id="home-title" tabindex="-1">
+          <span class="hero__line"><span class="v v--1">Studio</span>, <span class="v v--2">attivo</span> e <span class="v v--3">racconto</span> la società</span>
+          <span class="hero__line hero__tail">— attraverso il diritto, il digitale e i territori.</span>
+        </h1>
+        <p class="hero__sub">Stefano Pirone — Giurisprudenza, informatica giuridica, attivazione civica e scrittura.</p>
+
+        <div class="hero__art" aria-hidden="true">
+          <span class="shape shape--circle"></span>
+          <span class="shape shape--half"></span>
+          <span class="shape shape--square"></span>
+        </div>
+      </div>
+
+      <div class="featured">
+        <div class="wrap">
+          <h2 class="section-title">In evidenza</h2>
+        </div>
+        <ul class="rows rows--big" id="featured-list"></ul>
+        <div class="wrap">
+          <a class="more" href="/progetti">Vedi tutti i progetti <span class="more__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="now">
+        <div class="wrap now__inner">
+          <h2 class="now__title">Adesso</h2>
+          <p class="now__text" id="now-text"></p>
+          <div class="now__actions">
+            <a class="btn btn--light" href="/contatti">Scrivimi</a>
+            <a class="link-light" href="/scrittura">Leggi i miei testi <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <span class="now__shape" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- ================================================= PROGETTI -->
+    <section class="view" data-view="progetti" aria-labelledby="projects-title">
+      <header class="page-head wrap">
+        <h1 class="page-title" id="projects-title" tabindex="-1">Progetti</h1>
+        <p class="page-intro">Tre modi di stare dentro la società: analizzarla, attivarla, raccontarla.</p>
+
+        <div class="filters" role="group" aria-label="Filtra i progetti">
+          <button class="filter" type="button" data-filter="tutti" aria-pressed="true">Tutti</button>
+          <button class="filter" type="button" data-filter="analizzare" aria-pressed="false">Analizzare</button>
+          <button class="filter" type="button" data-filter="attivare" aria-pressed="false">Attivare</button>
+          <button class="filter" type="button" data-filter="raccontare" aria-pressed="false">Raccontare</button>
+        </div>
+        <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+      </header>
+
+      <ul class="rows rows--list" id="projects-list"></ul>
+    </section>
+
+    <!-- ========================================= SCHEDA PROGETTO -->
+    <section class="view" data-view="progetto" aria-labelledby="project-title">
+      <article class="detail" id="project-detail"></article>
+    </section>
+
+    <!-- ================================================ SCRITTURA -->
+    <section class="view" data-view="scrittura" aria-labelledby="writing-title">
+      <header class="page-head wrap">
+        <h1 class="page-title" id="writing-title" tabindex="-1">Scrittura</h1>
+        <p class="page-intro">Report, articoli e appunti. Quello che scrivo per capire meglio quello che faccio.</p>
+      </header>
+
+      <ol class="rows rows--list" id="writing-list"></ol>
+    </section>
+
+    <!-- ================================================= CHI SONO -->
+    <section class="view" data-view="chi-sono" aria-labelledby="about-title">
+      <header class="page-head wrap">
+        <h1 class="page-title" id="about-title" tabindex="-1">Chi sono</h1>
+      </header>
+
+      <div class="about wrap">
+        <div class="about__bio" id="about-bio"></div>
+        <div class="about__art" aria-hidden="true">
+          <span class="shape shape--circle"></span>
+          <span class="shape shape--half"></span>
+        </div>
+      </div>
+
+      <div class="education wrap">
+        <h2 class="section-title">Formazione</h2>
+        <ul class="education__list" id="education-list"></ul>
+      </div>
+
+      <div class="cv">
+        <div class="wrap cv__inner">
+          <p class="cv__text">Il percorso completo, con date ed esperienze, è nel CV.</p>
+          <a class="btn btn--dark" id="cv-link" href="/files/cv-stefano-pirone.pdf" target="_blank" rel="noopener">
+            Scarica il CV in PDF <span aria-hidden="true">↓</span><span class="sr-only"> (si apre in una nuova scheda)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================= CONTATTI -->
+    <section class="view" data-view="contatti" aria-labelledby="contact-title">
+      <div class="contact wrap">
+        <div class="contact__intro">
+          <h1 class="page-title" id="contact-title" tabindex="-1">Scrivimi.</h1>
+          <p class="page-intro">Per collaborazioni editoriali, progetti civici, ricerca o opportunità di lavoro.</p>
+          <ul class="contact__links">
+            <li><a class="contact__email" href="mailto:stefano.pirone18@gmail.com">stefano.pirone18@gmail.com</a></li>
+            <li><a class="contact__linkedin" href="https://www.linkedin.com/in/stefano-pirone" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (si apre in una nuova scheda)</span></a></li>
+          </ul>
+        </div>
+
+        <!-- Modulo statico: Netlify Forms lo rileva al deploy. Non rinominare i campi. -->
+        <form class="form" name="contatti" method="POST" action="/grazie" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contatti" />
+          <input type="hidden" name="subject" value="Nuovo messaggio dal sito — %{submissionId}" />
+          <p class="hidden-field" aria-hidden="true">
+            <label>Non compilare questo campo: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+          </p>
+
+          <div class="field">
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" required aria-describedby="e-nome" />
+            <p class="field__error" id="e-nome"></p>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email" />
+            <p class="field__error" id="e-email"></p>
+          </div>
+          <div class="field">
+            <label for="f-messaggio">Messaggio</label>
+            <textarea id="f-messaggio" name="messaggio" rows="5" required aria-describedby="e-messaggio"></textarea>
+            <p class="field__error" id="e-messaggio"></p>
+          </div>
+
+          <div class="form__actions">
+            <button class="btn btn--blue" type="submit">Invia <span aria-hidden="true">→</span></button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ====================================================== 404 -->
+    <section class="view" data-view="404" aria-labelledby="nf-title">
+      <header class="page-head wrap">
+        <h1 class="page-title" id="nf-title" tabindex="-1">Questa pagina non c’è.</h1>
+        <p class="page-intro">Forse il link è cambiato. Riparti dalla home o dai progetti.</p>
+        <p><a class="more" href="/">Torna alla home <span class="more__arrow" aria-hidden="true">→</span></a></p>
+      </header>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__name"><a href="/">Stefano Pirone</a></p>
+      <ul class="footer__links">
+        <li><a href="mailto:stefano.pirone18@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/stefano-pirone" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (si apre in una nuova scheda)</span></a></li>
+        <li><a href="/files/cv-stefano-pirone.pdf" target="_blank" rel="noopener">CV in PDF<span class="sr-only"> (si apre in una nuova scheda)</span></a></li>
+      </ul>
+      <p class="footer__meta">Avellino, <span id="year">2026</span></p>
+    </div>
+  </footer>
+</body>
+</html>

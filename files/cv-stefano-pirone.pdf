@@ -1,0 +1,47 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 506 >>
+stream
+BT
+/F2 26 Tf 1 0 0 1 72 740 Tm 0.086 0.086 0.082 rg (Stefano Pirone) Tj
+/F1 11 Tf 1 0 0 1 72 712 Tm 0.086 0.086 0.082 rg (Curriculum vitae) Tj
+/F1 11 Tf 1 0 0 1 72 660 Tm 0.086 0.086 0.082 rg (La versione completa del CV e' in aggiornamento.) Tj
+/F1 11 Tf 1 0 0 1 72 642 Tm 0.086 0.086 0.082 rg (Per riceverla subito, scrivi a stefano.pirone18@gmail.com) Tj
+/F1 11 Tf 1 0 0 1 72 624 Tm 0.086 0.086 0.082 rg (oppure visita linkedin.com/in/stefano-pirone) Tj
+ET
+0.114 0.208 0.341 RG 1 w 72 690 m 540 690 l S
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+7 0 obj
+<< /Title (Stefano Pirone - CV) /Author (Stefano Pirone) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000807 00000 n 
+0000000877 00000 n 
+0000000949 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+1024
+%%EOF
