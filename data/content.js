@@ -46,7 +46,7 @@ window.SITE_CONTENT = {
       sintesi: "Analisi civica sulla trasparenza amministrativa e sul D.Lgs. 24/2023.",
       racconto: [
         "Il D.Lgs. 24/2023 chiede agli enti pubblici di offrire canali sicuri a chi segnala illeciti. Durante la Scuola Common 2026 ho lavorato, in una breve esperienza progettuale, su come verificare dall’esterno se e come questi canali sono resi accessibili.",
-        "Ho poi messo in ordine gli appunti in un articolo per Aritmie.org: cosa si capisce, e cosa no, leggendo la sezione “Amministrazione trasparente” di un ente.",
+        "Ho poi lavorato sul tema, costruendo un articolo per Aritmie",
       ],
       link: [
         { url: "https://www.aritmie.org", etichetta: "Leggi l’articolo su Aritmie.org" },
@@ -93,7 +93,7 @@ window.SITE_CONTENT = {
         "Il lavoro di questi anni è raccolto nel report “Comunità che educa comunità”, che ho redatto.",
       ],
       link: [
-        { url: "/files/report-comunita-che-educa-comunita.pdf", etichetta: "Leggi il report" },
+        { url: "https://cdn.gamma.app/d48fijaahu7amdt/ffc8647ac1fa4bf1b8d5c04de76df01c/original/Comunita-che-educa-comunita---Report-di-Libera-Avellino-1.pdf", etichetta: "Leggi il report" },
       ],
     },
     {
@@ -159,7 +159,7 @@ window.SITE_CONTENT = {
       titolo: "Comunità che educa comunità",
       dove: "Report, Libera Avellino e scuole dell’Irpinia",
       anno: "2026",
-      link: "/files/report-comunita-che-educa-comunita.pdf",
+      link: "https://cdn.gamma.app/d48fijaahu7amdt/ffc8647ac1fa4bf1b8d5c04de76df01c/original/Comunita-che-educa-comunita---Report-di-Libera-Avellino-1.pdf",
     },
     {
       titolo: "Sicurezza: sintomatologia di una nevrosi.",
