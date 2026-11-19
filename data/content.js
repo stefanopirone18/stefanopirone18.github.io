@@ -19,7 +19,7 @@ window.SITE_CONTENT = {
       },
     ],
     adesso:
-      "In questi mesi chiudo la tesi in Informatica Giuridica, seguo i rapporti con le scuole per Libera Avellino e scrivo per Aritmie.org di trasparenza e società.",
+      "Sto completando il mio percorso universitario e la tesi in Informatica giuridica, mentre continuo il lavoro nelle scuole con Libera Avellino e la scrittura su Aritmie. Sono aperto a confronti su ricerca, progetti civici e nuove collaborazioni.",
   },
 
   progetti: [
@@ -177,8 +177,8 @@ window.SITE_CONTENT = {
 
   chiSono: {
     bio: [
-      "Sono di Avellino e sto finendo la magistrale in Giurisprudenza, curriculum internazionale, all’Università del Sannio. Mi interessa capire come funziona la società, e il diritto è il primo strumento che ho imparato a usare per farlo. Il digitale è il secondo: lo studio per capire cosa cambia nel modo in cui le regole vengono scritte, applicate e verificate.",
-      "Poi c’è il lavoro sul campo: laboratori nelle scuole, in un carcere minorile, nelle aree interne. Lì ho imparato che una norma conta quanto le persone che la incontrano. E c’è la scrittura, su Aritmie e altrove, che mi serve a tenere insieme le due cose.",
+     "Vengo dal Sud e mi sto laureando in Giurisprudenza all’Università del Sannio. Mi interessa capire come funziona la società, e il diritto — oggi inevitabilmente intrecciato al digitale e allo spazio europeo — è il punto da cui la osservo.",
+    "Accanto allo studio c’è il lavoro sul campo: i laboratori nelle scuole irpine, l’esperienza in un carcere minorile, la ricerca nelle aree interne. È lì che le norme smettono di essere carta e diventano vita quotidiana. Scrivere, su Aritmie e altrove, è il modo in cui provo a rimettere insieme questi piani.",
     ],
     formazione: [
       {
