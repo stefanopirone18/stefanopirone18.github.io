@@ -162,16 +162,22 @@ window.SITE_CONTENT = {
       link: "/files/report-comunita-che-educa-comunita.pdf",
     },
     {
-      titolo: "Trasparenza amministrativa e whistleblowing: appunti dalla Scuola Common",
+      titolo: "Sicurezza: sintomatologia di una nevrosi.",
       dove: "Aritmie.org",
       anno: "2026",
-      link: "https://www.aritmie.org",
+      link: "https://aritmie.wordpress.com/2026/10/13/sicurezza-sintomatologia-di-una-nevrosi/",
     },
     {
-      titolo: "Umberto Eco e il Regio Decreto 1728/1938",
+      titolo: "Il Codice del Pregiudizio. Eco, l’Ur-Fascimo e le macchine intelligenti.",
       dove: "Aritmie.org",
       anno: "2026",
-      link: "https://www.aritmie.org",
+      link: "https://aritmie.wordpress.com/2026/05/13/il-codice-del-pregiudizio-eco-lur-fascismo-e-le-macchine-intelligenti/",
+    },
+     {
+      titolo: "Frontiere: rieducazione e detenzione",
+      dove: "Aritmie.org",
+      anno: "2024",
+      link: "https://aritmie.wordpress.com/2024/05/13/frontiere-rieducazione-e-detenzione/",
     },
   ],
 
