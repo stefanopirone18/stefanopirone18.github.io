@@ -1,69 +1,27 @@
 /* =====================================================================
    CONTENUTI DEL SITO — Stefano Pirone
-   ---------------------------------------------------------------------
-   Questo è l'unico file da modificare per aggiornare i testi del sito:
-     · home        → la frase "in evidenza" e la nota "adesso"
-     · progetti    → la lista dei progetti e le loro schede complete
-     · scrittura   → l'indice di articoli e report
-     · chiSono     → la bio e la formazione
-
-   Il layout legge questi dati e li impagina da solo: non serve toccare
-   index.html, CSS o JavaScript.
-
-   REGOLE RAPIDE
-   · Testi tra virgolette doppie "..."; dentro al testo usa l'apostrofo
-     tipografico ’ e le virgolette “ ” per evitare errori.
-   · Ogni voce di una lista è tra { } e separata dalla successiva con
-     una virgola.
-   · I link possono essere:
-       - esterni:      "https://www.aritmie.org"
-       - PDF locali:   "/files/nome-file.pdf"
-       - pagine HTML:  "/files/prototipi/nome-prototipo.html"
-     I file locali vanno caricati nella cartella  public/files/
-   · Per non mostrare un link scrivi  link: null  (o una lista vuota [ ]).
    ===================================================================== */
 
 window.SITE_CONTENT = {
-  /* -------------------------------------------------------------------
-     HOME
-     inEvidenza: gli id di 3 progetti (vedi sotto) + una frase breve
-                 da mostrare nella riga della home.
-     adesso:     la nota sul blocco blu. Scrivi 2-3 righe al massimo.
-     ------------------------------------------------------------------- */
   home: {
     inEvidenza: [
       {
         progetto: "computational-legal-empiricism",
-        frase: "La tesi: cosa possono fare gli strumenti computazionali per la ricerca giuridica.",
+        frase: "La mia tesi: usare strumenti computazionali per capire meglio le norme.",
       },
       {
         progetto: "giustizia-e-legalita",
-        frase: "Tre anni nelle scuole dell’Irpinia con Libera Avellino, e un report che li racconta.",
+        frase: "Tre anni di laboratori nelle scuole dell’Irpinia con Libera Avellino.",
       },
       {
         progetto: "aritmie",
-        frase: "Il blog culturale indipendente che ho fondato con altri autori nel 2022.",
+        frase: "Il blog culturale indipendente che ho co-fondato nel 2022 per scrivere di società e cultura.",
       },
     ],
     adesso:
       "In questi mesi chiudo la tesi in Informatica Giuridica, seguo i rapporti con le scuole per Libera Avellino e scrivo per Aritmie.org di trasparenza e società.",
   },
 
-  /* -------------------------------------------------------------------
-     PROGETTI
-     id:       identificativo unico, minuscolo, solo lettere, numeri e
-               trattini. Diventa l'indirizzo della scheda:
-               /progetti/<id>
-     verbo:    "analizzare" | "attivare" | "raccontare"
-     titolo:   titolo del progetto
-     contesto: ente, luogo o cornice
-     anno:     anno o intervallo (es. "2024–2026", "Dal 2022")
-     sintesi:  UNA riga, mostrata nella lista
-     racconto: la scheda completa, un paragrafo per voce della lista
-     link:     lista di { url: "...", etichetta: "..." }  oppure  [ ]
-
-     L'ordine qui è l'ordine in cui appaiono sul sito.
-     ------------------------------------------------------------------- */
   progetti: [
     /* ---------- ANALIZZARE ---------- */
     {
@@ -91,7 +49,6 @@ window.SITE_CONTENT = {
         "Ho poi messo in ordine gli appunti in un articolo per Aritmie.org: cosa si capisce, e cosa no, leggendo la sezione “Amministrazione trasparente” di un ente.",
       ],
       link: [
-        // ⚠ Sostituisci con l'URL esatto dell'articolo
         { url: "https://www.aritmie.org", etichetta: "Leggi l’articolo su Aritmie.org" },
       ],
     },
@@ -106,8 +63,6 @@ window.SITE_CONTENT = {
         "Piccoli strumenti interattivi per leggere le norme da un’altra angolazione. Sono prove, non prodotti finiti: servono a capire se un’idea teorica regge quando la si applica a un testo vero.",
         "Uno di questi prototipi rilegge le disposizioni attraverso le 10 Capacità di Martha Nussbaum, per chiedersi quali possibilità concrete una norma apre o chiude alle persone.",
       ],
-      // Esempio di prototipo HTML caricato in public/files/prototipi/
-      // link: [{ url: "/files/prototipi/capacita-nussbaum.html", etichetta: "Apri il prototipo" }],
       link: [],
     },
     {
@@ -199,13 +154,6 @@ window.SITE_CONTENT = {
     },
   ],
 
-  /* -------------------------------------------------------------------
-     SCRITTURA
-     titolo: titolo del testo
-     dove:   pubblicazione o contesto
-     anno:   anno di pubblicazione
-     link:   URL completo, PDF in /files/…  oppure  null (nessuna freccia)
-     ------------------------------------------------------------------- */
   scrittura: [
     {
       titolo: "Comunità che educa comunità",
@@ -217,24 +165,16 @@ window.SITE_CONTENT = {
       titolo: "Trasparenza amministrativa e whistleblowing: appunti dalla Scuola Common",
       dove: "Aritmie.org",
       anno: "2026",
-      // ⚠ Sostituisci con l'URL esatto dell'articolo
       link: "https://www.aritmie.org",
     },
     {
       titolo: "Umberto Eco e il Regio Decreto 1728/1938",
       dove: "Aritmie.org",
       anno: "2026",
-      // ⚠ Sostituisci con l'URL esatto dell'articolo
       link: "https://www.aritmie.org",
     },
   ],
 
-  /* -------------------------------------------------------------------
-     CHI SONO
-     bio:        2 paragrafi in prima persona
-     formazione: titolo + dove (luogo o ente) + anno (facoltativo)
-     cv:         percorso del CV in PDF
-     ------------------------------------------------------------------- */
   chiSono: {
     bio: [
       "Sono di Avellino e sto finendo la magistrale in Giurisprudenza, curriculum internazionale, all’Università del Sannio. Mi interessa capire come funziona la società, e il diritto è il primo strumento che ho imparato a usare per farlo. Il digitale è il secondo: lo studio per capire cosa cambia nel modo in cui le regole vengono scritte, applicate e verificate.",
