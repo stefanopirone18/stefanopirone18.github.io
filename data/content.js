@@ -190,11 +190,6 @@ window.SITE_CONTENT = {
       "Mi sto laureando in Giurisprudenza (curriculum internazionale) all’Università del Sannio, con una tesi in informatica giuridica sull'utilizzo degli strumenti computazionali per l'analisi delle norme. Mi occupo di diritto del digitale e dell’Unione europea, trasparenza amministrativa e accountability.",
       "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera porto laboratori di Giustizia e Legalità nelle scuole dell’Irpinia, ho svolto il Servizio Civile con ARCI, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
     ],
-    lavoroGiuridico: [
-      { titolo: "Atto costitutivo e statuto", dove: "Aritmie, associazione culturale", anno: "" },
-      { titolo: "Monitoraggio civico sul whistleblowing (D.Lgs. 24/2023)", dove: "Progetto nazionale Whistle Monitor, come volontario", anno: "2026" },
-      { titolo: "Diritto delle nuove tecnologie e dell’AI", dove: "ELSA Winter Law School (Bruxelles) e Law Summer School (Sannio)", anno: "" },
-    ],
     formazione: [
       {
         titolo: "Laurea Magistrale in Giurisprudenza, curriculum internazionale",
