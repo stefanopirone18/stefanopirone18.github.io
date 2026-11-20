@@ -201,8 +201,8 @@ window.SITE_CONTENT = {
 
   chiSono: {
     bio: [
-      "Mi sto laureando in Giurisprudenza (curriculum internazionale) all’Università del Sannio, con una tesi in informatica giuridica su modelli linguistici e grafi di conoscenza applicati all’analisi delle norme. Mi occupo di diritto del digitale e dell’Unione europea, trasparenza amministrativa e accountability.",
-      "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera Avellino porto laboratori di giustizia e legalità nelle scuole dell’Irpinia, ho fatto il Servizio Civile con ARCI su un’indagine sui bisogni delle aree interne, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
+      "Mi sto laureando in Giurisprudenza (curriculum internazionale) all’Università del Sannio, con una tesi in informatica giuridica sull'utilizzo degli strumenti computazionali per l'analisi delle norme. Mi occupo di diritto del digitale e dell’Unione europea, trasparenza amministrativa e accountability.",
+      "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera Avellino porto laboratori di Giustizia e Legalità nelle scuole dell’Irpinia, ho fatto il Servizio Civile con ARCI, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
     ],
     lavoroGiuridico: [
       { titolo: "Atto costitutivo e statuto", dove: "Aritmie, associazione culturale", anno: "" },
