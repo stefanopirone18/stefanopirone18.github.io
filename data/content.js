@@ -33,7 +33,7 @@ window.SITE_CONTENT = {
       sintesi: "Come gli strumenti computazionali aiutano la ricerca giuridica e l’analisi dell’effettività delle norme.",
       racconto: [
         "Una norma esiste sulla carta, ma funziona davvero? La domanda è vecchia quanto la sociologia del diritto. Nella tesi la riprendo con strumenti nuovi.",
-        "Studio come modelli linguistici, grafi di conoscenza (GraphRAG) e simulazioni ad agenti possono affiancare il lavoro del giurista: leggere grandi quantità di testi, collegare fonti, osservare gli effetti di una regola. Mi interessa anche il limite: cosa questi strumenti non possono dire, e dove serve ancora una lettura umana.",
+        "Studio come modelli linguistici, grafi e simulazioni ad agenti possono affiancare il lavoro del giurista: leggere grandi quantità di testi, collegare fonti, osservare gli effetti di una regola. Mi interessa anche il limite: cosa questi strumenti non possono dire, e dove serve ancora una lettura umana.",
       ],
       link: [],
     },
@@ -94,7 +94,7 @@ window.SITE_CONTENT = {
       anno: "2023",
       sintesi: "Laboratori di scrittura, musica e teatro con i ragazzi detenuti.",
       racconto: [
-        "Durante la Summer e la Winter School ho co-progettato e condotto laboratori creativi di scrittura, musica e teatro con i ragazzi dell’istituto.",
+        "Durante la Summer e la Winter School ho co-progettato e condotto laboratori creativi di scrittura, musica e teatro con i ragazzi dell’Istituto.",
         "Il lavoro più delicato è stata la continuità: tornare, riconoscersi, riprendere il filo tra una scuola e l’altra.",
       ],
       link: [],
@@ -127,19 +127,6 @@ window.SITE_CONTENT = {
       link: [],
     },
 
-    {
-      id: "assetto-giuridico-aritmie",
-      verbo: "attivare",
-      titolo: "Assetto giuridico di Aritmie",
-      contesto: "Aritmie, collettivo culturale",
-      anno: "", // TODO: periodo
-      sintesi: "Atto costitutivo e statuto per dare forma di associazione a un collettivo culturale.",
-      racconto: [
-        "Aritmie è nata come blog e oggi gestisce una rivista trimestrale, podcast ed eventi. Per darle forma di associazione ho redatto atto costitutivo e statuto.",
-        "Le scelte più delicate: le categorie di soci, un comitato editoriale indipendente, strumenti di assemblea digitale, i requisiti di eleggibilità per il direttivo. Poi la titolarità della testata e la raccolta di donazioni online, con il loro trattamento fiscale.",
-      ],
-      link: [],
-    },
 
     /* ---------- RACCONTARE ---------- */
     {
@@ -150,8 +137,8 @@ window.SITE_CONTENT = {
       anno: "Dal 2022",
       sintesi: "Un blog culturale indipendente su attualità, società, cinema e musica.",
       racconto: [
-        "Aritmie è un blog culturale indipendente nato nel 2022. Lo abbiamo fondato in pochi, per scrivere di attualità, società, cinema e musica con uno sguardo nostro.",
-        "Scrivo articoli, seguo la parte editoriale e organizzativa e mi sono occupato dell’assetto giuridico dell’associazione.",
+        "Aritmie è un collettivo e un blog culturale indipendente nato nel 2022. Lo abbiamo fondato per scrivere di attualità, cinema, musica, letteratura con uno sguardo nostro.",
+        "Scrivo articoli, seguo la sezione Frattempi e mi sono occupato dell’assetto giuridico dell’associazione.",
       ],
       link: [
         { url: "https://www.aritmie.org", etichetta: "Vai su Aritmie.org" },
@@ -162,11 +149,10 @@ window.SITE_CONTENT = {
       verbo: "raccontare",
       titolo: "Comunicazione civica e sociale",
       contesto: "Libera Avellino e ARCI Avellino",
-      anno: "",
-      sintesi: "Comunicazione digitale e racconto dei progetti sul territorio.",
+      anno: "2025",
+      sintesi: "Comunicazione digitale e advocacy.",
       racconto: [
-        "Per Libera Avellino e ARCI Avellino curo la comunicazione digitale: piano editoriale, testi, racconto dei progetti mentre accadono.",
-        "L’obiettivo è che chi non c’era capisca cosa è successo in una scuola, in un quartiere, in un paese, senza che il racconto diventi uno slogan.",
+        "Per Libera Avellino curo la comunicazione digitale: piano editoriale, testi, racconto i progetti mentre accadono.",
       ],
       link: [],
     },
@@ -202,11 +188,11 @@ window.SITE_CONTENT = {
   chiSono: {
     bio: [
       "Mi sto laureando in Giurisprudenza (curriculum internazionale) all’Università del Sannio, con una tesi in informatica giuridica sull'utilizzo degli strumenti computazionali per l'analisi delle norme. Mi occupo di diritto del digitale e dell’Unione europea, trasparenza amministrativa e accountability.",
-      "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera Avellino porto laboratori di Giustizia e Legalità nelle scuole dell’Irpinia, ho fatto il Servizio Civile con ARCI, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
+      "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera porto laboratori di Giustizia e Legalità nelle scuole dell’Irpinia, ho svolto il Servizio Civile con ARCI, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
     ],
     lavoroGiuridico: [
       { titolo: "Atto costitutivo e statuto", dove: "Aritmie, associazione culturale", anno: "" },
-      { titolo: "Monitoraggio civico sul whistleblowing (D.Lgs. 24/2023)", dove: "Progetto nazionale, come volontario", anno: "2026" },
+      { titolo: "Monitoraggio civico sul whistleblowing (D.Lgs. 24/2023)", dove: "Progetto nazionale Whistle Monitor, come volontario", anno: "2026" },
       { titolo: "Diritto delle nuove tecnologie e dell’AI", dove: "ELSA Winter Law School (Bruxelles) e Law Summer School (Sannio)", anno: "" },
     ],
     formazione: [
@@ -223,12 +209,12 @@ window.SITE_CONTENT = {
       {
         titolo: "ELSA Winter Law School on New Technology and AI Law",
         dove: "Bruxelles",
-        anno: "",
+        anno: "2023",
       },
       {
         titolo: "Law Summer School, AI e Diritto",
         dove: "Università degli Studi del Sannio",
-        anno: "",
+        anno: "2024",
       },
       {
         titolo: "Scuola Common",
