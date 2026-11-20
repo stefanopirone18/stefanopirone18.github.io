@@ -19,7 +19,7 @@ window.SITE_CONTENT = {
       },
     ],
     adesso:
-      "Sto completando il mio percorso universitario e la tesi in Informatica giuridica, mentre continuo il lavoro nelle scuole con Libera Avellino e la scrittura su Aritmie. Sono aperto a confronti su ricerca, progetti civici e nuove collaborazioni.",
+      "La tesi in Informatica giuridica, i percorsi nelle scuole con Libera Avellino, la scrittura su Aritmie. Cerco un praticantato o un primo incarico in privacy e data protection, compliance, AI governance o legal tech, preferibilmente tra Napoli e Roma.",
   },
 
   progetti: [
@@ -45,13 +45,15 @@ window.SITE_CONTENT = {
       anno: "2026",
       sintesi: "Analisi civica sulla trasparenza amministrativa e sul D.Lgs. 24/2023.",
       racconto: [
-        "Il D.Lgs. 24/2023 chiede agli enti pubblici di offrire canali sicuri a chi segnala illeciti. Durante la Scuola Common 2026 ho lavorato, in una breve esperienza progettuale, su come verificare dall’esterno se e come questi canali sono resi accessibili.",
-        "Ho poi lavorato sul tema, costruendo un articolo per Aritmie",
+        "Il D.Lgs. 24/2023 obbliga enti pubblici e privati ad attivare canali sicuri per chi segnala illeciti. Come volontario ho partecipato a un progetto nazionale di monitoraggio civico che verifica dall’esterno se quei canali esistono e se sono accessibili. Il mio è stato un contributo a una parte del lavoro.",
+        "Su questo sto scrivendo un articolo per Aritmie, in uscita a breve.",
+        // TODO: aggiungi qui cosa hai verificato (tipi di enti, cosa controllavi, periodo).
       ],
-      link: [
-        { url: "https://www.aritmie.org", etichetta: "Leggi l’articolo su Aritmie.org" },
-      ],
+      // TODO: quando l’articolo è online, inserisci qui il link:
+      // link: [{ url: "https://aritmie.wordpress.com/...", etichetta: "Leggi l’articolo su Aritmie.org" }],
+      link: [],
     },
+
     {
       id: "prototipi-analisi-normativa",
       verbo: "analizzare",
@@ -63,22 +65,10 @@ window.SITE_CONTENT = {
         "Piccoli strumenti interattivi per leggere le norme da un’altra angolazione. Sono prove, non prodotti finiti: servono a capire se un’idea teorica regge quando la si applica a un testo vero.",
         "Uno di questi prototipi rilegge le disposizioni attraverso le 10 Capacità di Martha Nussbaum, per chiedersi quali possibilità concrete una norma apre o chiude alle persone.",
       ],
+      // TODO: quando il file è in files/prototipi/, togli i commenti e metti il nome giusto:
+      // link: [{ url: "/files/prototipi/NOME-FILE.html", etichetta: "Apri il prototipo" }],
       link: [],
     },
-    {
-      id: "erasmus-alumni-in-action",
-      verbo: "analizzare",
-      titolo: "Erasmus+ Alumni in Action",
-      contesto: "garagErasmus e INDIRE, Napoli",
-      anno: "2026",
-      sintesi: "Tra i 20 ambasciatori europei del laboratorio per i 40 anni di Erasmus+.",
-      racconto: [
-        "garagErasmus e INDIRE mi hanno selezionato tra i 20 ambasciatori europei del laboratorio strategico dedicato al 40° anniversario del programma Erasmus+.",
-        "Il laboratorio, a Napoli, è partito dall’esperienza di chi il programma lo ha vissuto per ragionare su come può arrivare a chi non è ancora partito.",
-      ],
-      link: [],
-    },
-
     /* ---------- ATTIVARE ---------- */
     {
       id: "giustizia-e-legalita",
@@ -93,7 +83,7 @@ window.SITE_CONTENT = {
         "Il lavoro di questi anni è raccolto nel report “Comunità che educa comunità”, che ho redatto.",
       ],
       link: [
-        { url: "https://cdn.gamma.app/d48fijaahu7amdt/ffc8647ac1fa4bf1b8d5c04de76df01c/original/Comunita-che-educa-comunita---Report-di-Libera-Avellino-1.pdf", etichetta: "Leggi il report" },
+        { url: "/files/comunita-che-educa-comunita.pdf", etichetta: "Leggi il report" },
       ],
     },
     {
@@ -105,7 +95,7 @@ window.SITE_CONTENT = {
       sintesi: "Laboratori di scrittura, musica e teatro con i ragazzi detenuti.",
       racconto: [
         "Durante la Summer e la Winter School ho co-progettato e condotto laboratori creativi di scrittura, musica e teatro con i ragazzi dell’istituto.",
-        "La parte più difficile, e più importante, è stata la continuità: tornare, riconoscersi, riprendere il filo tra una scuola e l’altra.",
+        "Il lavoro più delicato è stata la continuità: tornare, riconoscersi, riprendere il filo tra una scuola e l’altra.",
       ],
       link: [],
     },
@@ -123,6 +113,34 @@ window.SITE_CONTENT = {
       link: [],
     },
 
+    {
+      id: "erasmus-alumni-in-action",
+      verbo: "attivare",
+      titolo: "Erasmus+ Alumni in Action",
+      contesto: "garagErasmus e INDIRE, Napoli",
+      anno: "2026",
+      sintesi: "Selezionato tra 20 ambasciatori europei per il laboratorio sul 40° anniversario di Erasmus+.",
+      racconto: [
+        "garagErasmus e INDIRE mi hanno selezionato tra i 20 ambasciatori europei del laboratorio strategico dedicato al 40° anniversario del programma Erasmus+.",
+        "Il laboratorio, a Napoli, è partito dall’esperienza di chi il programma lo ha vissuto per ragionare su come può arrivare a chi non è ancora partito.",
+      ],
+      link: [],
+    },
+
+    {
+      id: "assetto-giuridico-aritmie",
+      verbo: "attivare",
+      titolo: "Assetto giuridico di Aritmie",
+      contesto: "Aritmie, collettivo culturale",
+      anno: "", // TODO: periodo
+      sintesi: "Atto costitutivo e statuto per dare forma di associazione a un collettivo culturale.",
+      racconto: [
+        "Aritmie è nata come blog e oggi gestisce una rivista trimestrale, podcast ed eventi. Per darle forma di associazione ho redatto atto costitutivo e statuto.",
+        "Le scelte più delicate: le categorie di soci, un comitato editoriale indipendente, strumenti di assemblea digitale, i requisiti di eleggibilità per il direttivo. Poi la titolarità della testata e la raccolta di donazioni online, con il loro trattamento fiscale.",
+      ],
+      link: [],
+    },
+
     /* ---------- RACCONTARE ---------- */
     {
       id: "aritmie",
@@ -133,7 +151,7 @@ window.SITE_CONTENT = {
       sintesi: "Un blog culturale indipendente su attualità, società, cinema e musica.",
       racconto: [
         "Aritmie è un blog culturale indipendente nato nel 2022. Lo abbiamo fondato in pochi, per scrivere di attualità, società, cinema e musica con uno sguardo nostro.",
-        "Scrivo articoli e seguo la parte editoriale e organizzativa del progetto, compresi gli aspetti legali.",
+        "Scrivo articoli, seguo la parte editoriale e organizzativa e mi sono occupato dell’assetto giuridico dell’associazione.",
       ],
       link: [
         { url: "https://www.aritmie.org", etichetta: "Vai su Aritmie.org" },
@@ -148,7 +166,7 @@ window.SITE_CONTENT = {
       sintesi: "Comunicazione digitale e racconto dei progetti sul territorio.",
       racconto: [
         "Per Libera Avellino e ARCI Avellino curo la comunicazione digitale: piano editoriale, testi, racconto dei progetti mentre accadono.",
-        "L’obiettivo è semplice da dire e difficile da fare: far capire a chi non c’era cosa è successo in una scuola, in un quartiere, in un paese, senza ridurlo a uno slogan.",
+        "L’obiettivo è che chi non c’era capisca cosa è successo in una scuola, in un quartiere, in un paese, senza che il racconto diventi uno slogan.",
       ],
       link: [],
     },
@@ -159,7 +177,7 @@ window.SITE_CONTENT = {
       titolo: "Comunità che educa comunità",
       dove: "Report, Libera Avellino e scuole dell’Irpinia",
       anno: "2026",
-      link: "https://cdn.gamma.app/d48fijaahu7amdt/ffc8647ac1fa4bf1b8d5c04de76df01c/original/Comunita-che-educa-comunita---Report-di-Libera-Avellino-1.pdf",
+      link: "/files/comunita-che-educa-comunita.pdf",
     },
     {
       titolo: "Sicurezza: sintomatologia di una nevrosi.",
@@ -168,7 +186,7 @@ window.SITE_CONTENT = {
       link: "https://aritmie.wordpress.com/2026/10/13/sicurezza-sintomatologia-di-una-nevrosi/",
     },
     {
-      titolo: "Il Codice del Pregiudizio. Eco, l’Ur-Fascimo e le macchine intelligenti.",
+      titolo: "Il Codice del Pregiudizio. Eco, l’Ur-Fascismo e le macchine intelligenti.",
       dove: "Aritmie.org",
       anno: "2026",
       link: "https://aritmie.wordpress.com/2026/05/13/il-codice-del-pregiudizio-eco-lur-fascismo-e-le-macchine-intelligenti/",
@@ -183,8 +201,13 @@ window.SITE_CONTENT = {
 
   chiSono: {
     bio: [
-     "Vengo dal Sud e mi sto laureando in Giurisprudenza all’Università del Sannio. Mi interessa capire come funziona la società, e il diritto — oggi inevitabilmente intrecciato al digitale e allo spazio europeo — è il punto da cui la osservo.",
-    "Accanto allo studio c’è il lavoro sul campo: i laboratori nelle scuole irpine, l’esperienza in un carcere minorile, la ricerca nelle aree interne. È lì che le norme smettono di essere carta e diventano vita quotidiana. Scrivere, su Aritmie e altrove, è il modo in cui provo a rimettere insieme questi piani.",
+      "Mi sto laureando in Giurisprudenza (curriculum internazionale) all’Università del Sannio, con una tesi in informatica giuridica su modelli linguistici e grafi di conoscenza applicati all’analisi delle norme. Mi occupo di diritto del digitale e dell’Unione europea, trasparenza amministrativa e accountability.",
+      "Lavoro anche fuori dall’aula. Sono di Avellino: con Libera Avellino porto laboratori di giustizia e legalità nelle scuole dell’Irpinia, ho fatto il Servizio Civile con ARCI su un’indagine sui bisogni delle aree interne, ho condotto laboratori in un carcere minorile. Scrivo su Aritmie, che ho co-fondato. È lì che le norme smettono di essere carta.",
+    ],
+    lavoroGiuridico: [
+      { titolo: "Atto costitutivo e statuto", dove: "Aritmie, associazione culturale", anno: "" },
+      { titolo: "Monitoraggio civico sul whistleblowing (D.Lgs. 24/2023)", dove: "Progetto nazionale, come volontario", anno: "2026" },
+      { titolo: "Diritto delle nuove tecnologie e dell’AI", dove: "ELSA Winter Law School (Bruxelles) e Law Summer School (Sannio)", anno: "" },
     ],
     formazione: [
       {

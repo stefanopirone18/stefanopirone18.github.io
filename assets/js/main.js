@@ -257,9 +257,8 @@
     var bio = $("#about-bio");
     if (bio) bio.innerHTML = (c.bio || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
 
-    var edu = $("#education-list");
-    if (edu) {
-      edu.innerHTML = (c.formazione || [])
+    function eduItems(items) {
+      return (items || [])
         .map(function (f) {
           return (
             '<li class="education__item">' +
@@ -271,6 +270,10 @@
         })
         .join("");
     }
+    var edu = $("#education-list");
+    if (edu) edu.innerHTML = eduItems(c.formazione);
+    var legal = $("#legal-list");
+    if (legal) legal.innerHTML = eduItems(c.lavoroGiuridico);
     if (c.cv) {
       $$('a[href="/files/cv-stefano-pirone.pdf"]').forEach(function (a) { a.setAttribute("href", c.cv); });
     }
@@ -280,7 +283,7 @@
      ROUTER — navigazione tra viste con la History API
      ================================================================= */
   var TITLES = {
-    home: SITE,
+    home: SITE + " — giurista in formazione",
     progetti: "Progetti — " + SITE,
     scrittura: "Scrittura — " + SITE,
     "chi-sono": "Chi sono — " + SITE,
